@@ -1,13 +1,11 @@
-body{
+.container{
     box-sizing: border-box;
     padding: 20px 35px;
     font-family: "Inter", sans-serif;
     border: 2px solid whitesmoke;
     border-radius: 12px;
-    align-items: baseline;
-    width: 80%;
+    align-items: center;
     justify-self: center;
-    margin:40px
     text-align: center;
 }
 
@@ -28,18 +26,17 @@ h2{
 }
 
 input{
-    width: 80%;
+    width: 50%;
     padding: 8px 12px;
-    margin: 8px 0;
-    display: inline-block;
+    margin: 8px 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
 .form{
-    width: 80%;
-    margin: 30px 85px;
+    width: 50%;
+    margin: 30px 20px;
     align-items: center;
 }
 
@@ -49,11 +46,11 @@ label{
 }
 
 button{
-    width: 60%;
+    width: 50%;
     background-color: #cccccc;
     color: rgb(45, 44, 44);
     padding: 10px 15px;
-    margin: 0 95px;
+    margin: auto;
     border: none;
     border-radius: 4px;
     cursor: pointer;
