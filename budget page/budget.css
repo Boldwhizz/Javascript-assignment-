@@ -135,11 +135,11 @@ button {
   margin: 10px;
 }
 
-.filter select {
+.filter select, .period select {
   border: 2px solid whitesmoke;
   border-radius: 8px;
   padding: 8px 16px;
-  font-size: bold;
+  font-size: 12px;
   align-items: center;
 }
 
@@ -149,46 +149,10 @@ button {
   cursor: pointer;
 }
 
-.recurrence-options {
-  display: flex;
-  text-align: center;
-  width: 100%;
-  margin: 12px auto;
-  justify-content: center;
-  gap: 6px;
-}
-
-/* Hide the actual radio buttons */
-.recurrence-options input[type="radio"] {
-  display: none;
-}
-
-/* Style the labels to look like buttons */
-.recurrence-options label {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
-  padding: 6px 12px;
-  border: none;
-  border-radius: 20px;
-  background-color: #e4e7eb;
-  color: #333;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.3s;
-  width: 100%;
-}
-
 #recurrence {
   margin: 12px;
   font-weight: lighter;
   color: grey;
-}
-
-.recurrence-options label:hover {
-  background-color: #10eab4;
-  cursor: pointer;
 }
 
 label {
@@ -220,6 +184,11 @@ input[type="date"] {
   background-color: aliceblue;
   color: rgb(108, 107, 107);
   font-size: 14px;
+}
+
+#create:hover {
+  background-color: #00c292;
+  color: white;
 }
 
 .budget-form {
