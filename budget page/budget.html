@@ -16,10 +16,24 @@
   </head>
 
   <body>
+    <nav class="navbar">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="FinTracker logo" />
+      <span>FinTracker</span>
+    </div>
+    <div class="nav-links">
+      <a href="../dashboard page/dashboard.html" class="active">Dashboard</a>
+      <a href="../budget page/budget.html" class="active">Budgets</a>
+    </div>
+    <div class="user-icon">👤</div>
+  </nav>
+
     <h3>Budgets</h3>
     <div class="folder">
         <p class="text">Take control of your expenses and save more money by organising your budgets.</p>
+        <div class="btn">
         <button id="openformbtn">Create a New Budget</button>
+        </div>
     </div>
 
     <div class="modal" id="budgetform">
@@ -88,7 +102,7 @@
                 </div>
 
      <div class="period">
-    <h3 class="heading"><i class="feather icon-calendar"></i>Budget Period</h3>
+    <h3 class="heading"></i>Budget Period</h3>
     <span id="recurrence">Recurrence</span>
   <div class="recurrence-options">
   <input type="radio" id="once" name="recurrence" checked>
